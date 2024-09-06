@@ -1,0 +1,24 @@
+@import "~normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #caf0f8;
+}
+
+header {
+  background-color: #90e0ef;
+
+  font-size: 1.3rem;
+  padding: 10px;
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  display: flex;
+}
+.header__icon {
+  width: 60px;
+  align-self: center;
+}
